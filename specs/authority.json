@@ -1,0 +1,28 @@
+{
+  "version": "8.0",
+  "repositoryId": "eliware/documentation-template",
+  "description": "Repository-local authority record for the Eliware project template.",
+  "subjects": [
+    {
+      "id": "documentation-template.implementation",
+      "kind": "repository-implementation",
+      "authority": { "path": "../" },
+      "directives": [{ "path": "./directives.json", "ids": ["E-1"] }],
+      "implementation": [
+        {
+          "path": "../documentation-template.mjs",
+          "role": "documentation-entrypoint"
+        }
+      ],
+      "consumers": ["Projects derived from documentation-template"],
+      "reviewers": ["Eliware maintainers"],
+      "evidence": [],
+      "notAuthoritativeFor": [
+        "Eliware policy",
+        "operations",
+        "publication authorization"
+      ],
+      "status": "active"
+    }
+  ]
+}
