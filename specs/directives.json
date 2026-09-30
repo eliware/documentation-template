@@ -1,12 +1,14 @@
 {
-  "version": "8.0",
-  "repositoryId": "eliware/documentation-template",
-  "description": "Repository-specific directive index; shared rules remain authoritative in eliware/conventions.",
+  "version": "9.0",
+  "description": "Baseline documentation guidance for repositories created from this template.",
   "directives": [
     {
-      "id": "E-1",
-      "source": "eliware/conventions",
-      "profiles": ["general", "documentation"]
+      "id": "E-0.1.100",
+      "dos": [
+        "Use the repository root README.md as the documentation entry point and specs/README.md to index structured records.",
+        "Replace template-specific metadata and content with the derived repository's details."
+      ],
+      "donts": ["Do not leave template identity or placeholder content in a derived repository."]
     }
   ]
 }

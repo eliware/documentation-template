@@ -1,131 +1,117 @@
 # [![eliware.org](https://eliware.org/logos/brand.png)](https://discord.gg/M6aTR9eTwN)
 
-## @eliware/documentation-template [![license](https://img.shields.io/github/license/eliware/documentation-template.svg)](LICENSE)[![build status](https://github.com/eliware/documentation-template/actions/workflows/nodejs.yml/badge.svg)](https://github.com/eliware/documentation-template/actions)
-
-Documentation: [docs](docs/README.md) · [specifications](specs/README.md) · [examples](examples/README.md) · [release notes](RELEASE_NOTES.md)
-
-A starter template for new Node.js projects. Use this as a foundation for your next application or service.
-
----
+## @eliware/documentation-template [![license](https://img.shields.io/github/license/eliware/documentation-template.svg)](LICENSE) [![CI](https://github.com/eliware/documentation-template/actions/workflows/ci.yml/badge.svg)](https://github.com/eliware/documentation-template/actions/workflows/ci.yml)
 
 ## Table of Contents
 
 - [Features](#features)
 - [Requirements](#requirements)
-- [Getting Started](#getting-started)
+- [Setup](#setup)
+- [Usage](#usage)
 - [Development](#development)
 - [Testing](#testing)
-- [Errors / Troubleshooting](#errors--troubleshooting)
+- [Troubleshooting](#troubleshooting)
 - [Security](#security)
-- [Customization](#customization)
+- [Scope](#scope)
+- [Navigation](#navigation)
+- [Contribution](#contribution)
+- [Documentation validation](#documentation-validation)
 - [Support](#support)
 - [License](#license)
 - [Links](#links)
 
 ## Features
 
-- Pre-configured for Node.js (ESM)
-- Environment variable support via dotenv
-- Logging and signal handling via `@eliware/common`
-- Jest for testing
-- MIT License
+A private baseline for new Eliware documentation-only repositories. It includes
+the shared repository metadata, documentation indexes, CI workflow, and Knit
+deployment configuration.
 
-## Documentation
-
-Keep user-facing documents under `docs/`, index every document from
-`docs/README.md`, and keep policy and structured authority in their designated
-JSON sources.
-
-## Contents
-
-Document scope, audience, ownership, navigation, contribution requirements,
-link validation, and support for every published documentation surface.
+Package description: Eliware documentation-only repository template. Author:
+Eliware <eliware@eliware.org>. License: MIT.
 
 ## Requirements
 
-- Node.js 26 or newer
-- A new project directory and environment appropriate to the application you build from this template
+Node.js 26 and npm are required for repository validation.
 
 ## Setup
 
-1. **Clone this template:**
-
-   ```bash
-   git clone https://github.com/eliware/documentation-template.git
-   cd documentation-template
-   rm -rf .git
-   git init
-   npm install
-   ```
-
-2. **Update project details:**
-   - Edit `package.json` (name, description, author, etc.)
-   - Update this `README.md` as needed
-   - Change the license if required
+Create a repository from this template, update its package name and repository
+metadata, then run `npm ci` from the repository root.
 
 ## Usage
 
-Use this repository as a starting point: clone it, rename the package and
-entrypoint, configure `.env`, and replace the starter implementation.
+Use the root README as the documentation entry point. Add repository-specific
+documentation and structured records, and keep their indexes current.
 
 ## Development
 
-- Main entry: `documentation-template.mjs`
-- Start your app:
-
-  ```bash
-  node documentation-template.mjs
-  ```
-
-- Add your code in new files and import as needed.
+Read [AGENTS.md](AGENTS.md), this README, and applicable specifications before
+changing files. Keep documentation in the repository that owns its content and
+link to other repositories for their requirements, implementation, or procedures.
 
 ## Testing
 
-- Run tests and coverage-gap checks with:
-
-  ```bash
-  npm test
-  npm run test:gaps
-  npm run lint
-   npm run pack
-  ```
-
-- Add your tests in the `__tests__` folder or alongside your code.
-
-## Template inheritance
-
-Keep the template relationship when cloning specialized templates. Use `origin` for the new project and `upstream` for this template, then fetch and review upstream changes before merging.
-
-## Customization
-
-- Replace or extend the logging and signal handling as needed.
-- Add dependencies and scripts to fit your project.
-- Remove or modify template files and sections.
+Run `npm test` for aggregate validation. Use `npm run lint`, `npm run audit`,
+`npm run format`, or `npm run format:check` for focused stages. The scripts run
+through `eliware-test`.
 
 ## Troubleshooting
 
-This repository is a starter application, not a production service. Replace placeholder metadata and application logic after cloning. Keep `.env` local, verify configuration before startup, and use `registerSignals`/`registerHandlers` for explicit graceful shutdown and error handling.
+Use Node.js 26 and run `npm ci` after dependency changes. Review the rule and
+file path reported by `eliware-test` when validation fails.
 
 ## Security
 
-Never commit `.env`, tokens, passwords, private keys, or credential-bearing URLs. Store secrets in the deployment environment or secret manager, and review dependencies and permissions before deploying a derived project.
+Keep credentials, secrets, decrypted data, runtime output, and machine-specific
+state outside version control. Do not add plaintext secrets to documentation or
+structured records.
+
+## Scope
+
+This repository is a starting point for documentation-only repositories. A
+derived repository owns its own documentation, structured records, and indexes.
+It does not contain application implementation, tests, operational procedures,
+runtime configuration, or copied policy from another repository.
+
+## Navigation
+
+Documentation: [specifications](specs/README.md)
+
+- [Structured records index](specs/README.md)
+- [Template directives](specs/directives.json)
+
+## Contribution
+
+Replace template-specific metadata and content with the derived repository's
+details. Keep root and specifications indexes aligned with files on disk, then
+run the validation commands before handoff.
+
+## Documentation validation
+
+Run `npm test` to validate repository conventions, documentation links and
+indexes, lint, formatting, and dependency security. `npm run format:check` is
+read-only; `npm run format` writes formatted files.
 
 ## Support
 
-For help, questions, or to chat with the author and community, visit:
-
-[![Discord](https://eliware.org/logos/discord_96.png)](https://discord.gg/M6aTR9eTwN)[![eliware.org](https://eliware.org/logos/eliware_96.png)](https://discord.gg/M6aTR9eTwN)
+[![Discord](https://eliware.org/logos/discord_96.png)](https://discord.gg/M6aTR9eTwN)
 
 **[eliware.org on Discord](https://discord.gg/M6aTR9eTwN)**
 
+Use the [Eliware Discord community](https://discord.gg/M6aTR9eTwN),
+[GitHub issues](https://github.com/eliware/documentation-template/issues), or
+eliware@eliware.org. Include the relevant file path and a concise description of
+the issue when requesting help.
+
 ## License
 
-[MIT © 2025 Eli Sterling, eliware.org](LICENSE)
+[license](LICENSE)
 
 ## Links
 
+- [Specifications](specs/README.md)
+- [Canonical repository conventions](https://github.com/eliware/test/tree/main/specs/conventions)
 - [Home Page](https://eliware.org)
-- [GitHub Repo](https://github.com/eliware/documentation-template)
+- [GitHub Repo](https://github.com/eliware/documentation-template) (`git+https://github.com/eliware/documentation-template.git`)
 - [GitHub Org](https://github.com/eliware)
-- [GitHub Personal](https://github.com/eli-sterling)
 - [Discord](https://discord.gg/M6aTR9eTwN)
