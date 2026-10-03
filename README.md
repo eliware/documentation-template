@@ -1,8 +1,6 @@
 # [![eliware.org](https://eliware.org/logos/brand.png)](https://discord.gg/M6aTR9eTwN)
 
-Package description: Eliware documentation-only repository template.
-
-## @eliware/documentation-template [![License](https://img.shields.io/github/license/eliware/documentation-template)](https://github.com/eliware/documentation-template/blob/main/LICENSE) [![CI](https://github.com/eliware/documentation-template/actions/workflows/ci.yml/badge.svg)](https://github.com/eliware/documentation-template/actions/workflows/ci.yml)
+## @eliware/documentation-template [![License](https://img.shields.io/github/license/eliware/documentation-template)](https://github.com/eliware/documentation-template/blob/main/LICENSE) [![CI](https://github.com/eliware/documentation-template/actions/workflows/ci.yaml/badge.svg)](https://github.com/eliware/documentation-template/actions/workflows/ci.yaml)
 
 ## Table of Contents
 
@@ -24,18 +22,17 @@ Package description: Eliware documentation-only repository template.
 
 ## Features
 
-This template owns reusable documentation-only structure and indexes; each derived repository owns its requirements, technical facts, and project behavior.
+Package description: Eliware documentation-only repository template. Author: Eliware <eliware@eliware.org>. License: MIT.
 
+This template owns reusable documentation-only structure and indexes; each derived repository owns its requirements, technical facts, and project behavior.
 
 A private baseline for new Eliware documentation-only repositories. It includes
 the shared repository metadata, documentation indexes, CI workflow, and Knit
 deployment configuration.
 
-Eliware <eliware@eliware.org>. License: MIT.
-
 ## Requirements
 
-Node.js 26 and npm are required for repository validation.
+Node.js 26 and npm 12 or later are required for repository validation.
 
 ## Setup
 
