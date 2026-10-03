@@ -45,6 +45,7 @@
     "endOfLine": "lf"
   },
   "eliware": {
+    "id": "E-10",
     "apply": [
       "general",
       "documentation",
