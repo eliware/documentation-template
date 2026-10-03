@@ -1,6 +1,8 @@
 # [![eliware.org](https://eliware.org/logos/brand.png)](https://discord.gg/M6aTR9eTwN)
 
-## @eliware/documentation-template [![license](https://img.shields.io/github/license/eliware/documentation-template.svg)](LICENSE) [![CI](https://github.com/eliware/documentation-template/actions/workflows/ci.yml/badge.svg)](https://github.com/eliware/documentation-template/actions/workflows/ci.yml)
+Package description: Eliware documentation-only repository template.
+
+## @eliware/documentation-template [![License](https://img.shields.io/github/license/eliware/documentation-template)](https://github.com/eliware/documentation-template/blob/main/LICENSE) [![CI](https://github.com/eliware/documentation-template/actions/workflows/ci.yml/badge.svg)](https://github.com/eliware/documentation-template/actions/workflows/ci.yml)
 
 ## Table of Contents
 
@@ -22,11 +24,13 @@
 
 ## Features
 
+This template owns reusable documentation-only structure and indexes; each derived repository owns its requirements, technical facts, and project behavior.
+
+
 A private baseline for new Eliware documentation-only repositories. It includes
 the shared repository metadata, documentation indexes, CI workflow, and Knit
 deployment configuration.
 
-Package description: Eliware documentation-only repository template. Author:
 Eliware <eliware@eliware.org>. License: MIT.
 
 ## Requirements
@@ -75,10 +79,10 @@ runtime configuration, or copied policy from another repository.
 
 ## Navigation
 
-Documentation: [specifications](specs/README.md)
+Documentation: [repository map](https://github.com/eliware/docs/blob/main/repo-map.yaml) · [specifications](specs/README.md)
 
 - [Structured records index](specs/README.md)
-- [Template directives](specs/directives.json)
+- [Template directives](specs/directives.yaml)
 
 ## Contribution
 
@@ -109,9 +113,9 @@ the issue when requesting help.
 
 ## Links
 
-- [Specifications](specs/README.md)
-- [Canonical repository conventions](https://github.com/eliware/test/tree/main/specs/conventions)
-- [Home Page](https://eliware.org)
-- [GitHub Repo](https://github.com/eliware/documentation-template) (`git+https://github.com/eliware/documentation-template.git`)
-- [GitHub Org](https://github.com/eliware)
+- [Home Page](https://github.com/eliware/documentation-template#readme)
+- [GitHub repository](https://github.com/eliware/documentation-template.git)
+- [Eliware](https://eliware.org)
+- [GitHub organization](https://github.com/eliware)
 - [Discord](https://discord.gg/M6aTR9eTwN)
+- [specifications](specs/README.md)
