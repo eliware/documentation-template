@@ -76,7 +76,7 @@ runtime configuration, or copied policy from another repository.
 
 ## Navigation
 
-Documentation: [repository map](https://github.com/eliware/docs/blob/main/repo-map.yaml) · [specifications](specs/README.md)
+Documentation: [specifications](specs/README.md)
 
 - [Structured records index](specs/README.md)
 - [Template directives](specs/directives.yaml)
