@@ -24,8 +24,7 @@ Eliware documentation-only repository template.
 
 ## Features
 
-This template provides a baseline for private, documentation-only Eliware repositories.
-It includes shared repository metadata, documentation indexes, CI, and Knit deployment configuration.
+This template provides a reusable starting point. Each derived repository owns its product behavior and operating decisions.
 
 ## Requirements
 
@@ -33,46 +32,51 @@ Use Node.js 26 or later and npm 12 or later for repository validation.
 
 ## Setup
 
-Create a repository from this template. Update its package name and repository metadata. Run `npm ci` from the repository root.
+Create a repository from this template. Replace the template name, description, URLs, keywords, and sample content.
+Run `npm ci` from the repository root.
 
 ## Usage
 
-Use the root README as the documentation entry point. Add repository-specific documentation and structured records. Keep their indexes current.
+Follow this README and the [user guide](docs/README.md).
 
 ## Development
 
-Read [AGENTS.md](AGENTS.md), this README, and applicable specifications before you change files. Keep documentation in the repository that owns its content. Link to other repositories for their requirements, implementation, or procedures.
+Read [AGENTS.md](AGENTS.md) and [the specifications index](specs/README.md) before you change files.
+Keep documents and records in the repository that owns them.
 
 ## Testing
 
-Run `npm test` for aggregate validation. Use `npm run lint`, `npm run audit`, `npm run format`, or `npm run format:check` for focused stages. The scripts run through `eliware-test`.
+Run `npm test` before handoff. It runs the repository checks through `eliware-test`.
 
 ## Troubleshooting
 
-Use Node.js 26 or later. Run `npm ci` after dependency changes. Review the rule and file path that `eliware-test` reports when validation fails.
+Install the required Node.js and npm versions. Run `npm ci` after dependency changes.
+Review the file and rule in any validation error.
 
 ## Security
 
-Keep credentials, secrets, decrypted data, runtime output, and machine-specific state outside version control. Do not add plaintext secrets to documentation or structured records.
+Keep credentials, secrets, private data, and runtime state out of Git.
+Use only approved secret stores for secret values.
 
 ## Scope
 
-This repository is a starting point for documentation-only repositories. A derived repository owns its documentation, structured records, and indexes. It does not contain application implementation, tests, operational procedures, runtime configuration, or copied policy from another repository.
+Use this template for private, documentation-only repositories.
+Keep owned documents, structured records, and indexes in the derived repository. Keep application code, runtime settings, and canonical procedures in their owning repositories.
 
 ## Navigation
 
-Documentation: [specifications](specs/README.md)
-
-- [Structured records index](specs/README.md)
-- [Template directives](specs/directives.yaml)
+Use the root README as the entry point. Use `specs/README.md` to find structured records.
+Index each direct YAML file in its specifications README. Keep links local or use full HTTPS links to other repositories.
 
 ## Contribution
 
-Replace template-specific metadata and content with the derived repository's details. Keep root and specifications indexes aligned with files on disk. Run the validation commands before handoff.
+Set the repository purpose, owner, and boundaries before adding documents.
+Write with ASD-STE100 rules. Keep each procedure in one authoritative location. Link to it from other documents.
 
 ## Documentation validation
 
-Run `npm test` to validate repository conventions, documentation links and indexes, lint, formatting, and dependency security. `npm run format:check` is read-only. `npm run format` writes formatted files.
+Run `npm test` to check repository conventions, document links, indexes, lint, formatting, and dependency security.
+Run `npm run format:check` to check formatting. Run `npm run format` to format files.
 
 ## Support
 
