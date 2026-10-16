@@ -25,6 +25,7 @@ Use native ESM for maintained JavaScript modules.
 Run `npm test` for aggregate validation.
 Run `npm run lint` for lint checks.
 Run `npm run audit` for dependency checks.
+
 Run `npm run format` to format files.
 Run `npm run format:check` to check formatting.
 
@@ -34,7 +35,7 @@ Keep credentials, secret values, private data, and runtime state out of Git.
 
 ## Changes
 
-Keep changes within this repository scope.
+Keep changes in this repository.
 Use Eliware Operations for approval before external changes.
 
 ## Documentation
@@ -43,5 +44,5 @@ Keep this repository focused on documents and structured records.
 
 ## Private distribution
 
-Limit access to authorized Eliware users.
+Limit access to approved Eliware users.
 Do not publish npm packages.

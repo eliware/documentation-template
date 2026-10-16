@@ -24,7 +24,7 @@ Eliware documentation-only repository template.
 
 ## Features
 
-This template provides a reusable starting point. Each derived repository owns its product behavior and operating decisions.
+This template starts documentation-only repositories. Each derived repository owns its documents and operating decisions.
 
 ## Requirements
 
@@ -37,7 +37,7 @@ Run `npm ci` from the repository root.
 
 ## Usage
 
-Follow this README and the [user guide](docs/README.md).
+Read this README and the [User Guide](docs/README.md).
 
 ## Development
 
@@ -51,7 +51,7 @@ Run `npm test` before handoff. It runs the repository checks through `eliware-te
 ## Troubleshooting
 
 Install the required Node.js and npm versions. Run `npm ci` after dependency changes.
-Review the file and rule in any validation error.
+For each validation error, read the named file and rule.
 
 ## Security
 
@@ -75,7 +75,7 @@ Write with ASD-STE100 rules. Keep each procedure in one authoritative location. 
 
 ## Documentation validation
 
-Run `npm test` to check repository conventions, document links, indexes, lint, formatting, and dependency security.
+Run `npm test` to check repository conventions, document links, indexes, lint, formatting, and dependency checks.
 Run `npm run format:check` to check formatting. Run `npm run format` to format files.
 
 ## Support

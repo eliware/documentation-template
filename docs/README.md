@@ -1,4 +1,4 @@
-# Documentation guide
+# User Guide
 
 Use this guide to create and maintain a documentation-only repository from this template.
 
@@ -14,7 +14,7 @@ Use this guide to create and maintain a documentation-only repository from this 
 
 Use the root README as the entry point. Use `specs/README.md` to index structured records. Add one index in each specifications directory.
 
-Keep each index current. Link each document from its parent index. Do not copy policy or procedures from another repository.
+Keep each index current. Link each document from its parent index. Do not copy policies or procedures from other repositories.
 
 ## Write for readers
 
@@ -22,10 +22,10 @@ Use ASD-STE100 rules. Use short sentences and active voice. Use one instruction 
 
 Describe the reader, purpose, required input, steps, result, and error path. Put each procedure in one authoritative location. Link to it from other documents.
 
-## Protect information
+## Manage information
 
 Keep credentials, secrets, decrypted data, private data, and machine-specific state out of Git. Do not put secret values in examples.
 
 ## Validate
 
-Run `npm test` before handoff. It checks repository conventions, document links and indexes, lint, formatting, and dependency security.
+Run `npm test` before handoff. It checks repository conventions, document links and indexes, lint, formatting, and dependencies.
