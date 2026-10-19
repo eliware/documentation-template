@@ -50,6 +50,12 @@ Run `npm test` before handoff. It runs the repository checks through `eliware-te
 
 ## Troubleshooting
 
+If `npm ci` fails, use Node.js 26 or later and npm 12 or later.
+Run `npm ci` after you install the required versions.
+If `npm test` fails, read the file and rule in the error output.
+Fix the reported issue.
+Run `npm test` again.
+
 ## Security
 
 Keep credentials, secrets, private data, and runtime state out of Git.
