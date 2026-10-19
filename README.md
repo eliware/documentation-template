@@ -37,7 +37,7 @@ Run `npm ci` from the repository root.
 
 ## Usage
 
-Read this README and the [User Guide](docs/README.md).
+Read this README and the [template guide](docs/README.md).
 
 ## Development
 
