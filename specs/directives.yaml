@@ -5,6 +5,5 @@ directives:
     dos:
       - Use README.md as the documentation entry point.
       - Use specs/README.md to index structured records.
-      - Replace template-specific metadata and content with the derived repository's details.
     donts:
       - Keep template identity and placeholder content out of derived repositories.
