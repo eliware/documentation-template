@@ -2,6 +2,8 @@
 
 Use this guide to create and maintain a documentation-only repository from this template.
 
+> After you create a repository from this template, replace this document with end-user documentation for your repository.
+
 ## Define the repository
 
 1. Create a repository from this template.
