@@ -72,7 +72,7 @@ Write with ASD-STE100 rules. Keep each procedure in one authoritative location. 
 
 ## Documentation validation
 
-Run `npm test` to check repository conventions, document links, indexes, lint, formatting, and dependency checks.
+Run `npm test` to check the repository.
 Run `npm run format:check` to check formatting. Run `npm run format` to format files.
 
 ## Support
