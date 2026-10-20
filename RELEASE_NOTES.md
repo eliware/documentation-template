@@ -1,5 +1,12 @@
 # Release Notes
 
+## 14.0.0 — 2026-10-20
+
+### Changed
+
+- Align package metadata and repository specifications with v14 conventions.
+- Complete the required AGENTS.md guidance and link the release notes from README Usage.
+
 ## 13.0.0 — 2026-10-19
 
 ### Added

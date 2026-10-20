@@ -31,6 +31,13 @@ Keep credentials, secret values, private data, and runtime state out of Git.
 
 ## Changes
 
+Keep each document in the repository that owns its content.
+When you add a document, update its nearest index.
+
 ## Documentation
 
+Keep docs/README.md as the template guide. Replace it with end-user documentation for the derived repository.
+
 ## Private distribution
+
+Keep this repository private. Share documents only with approved readers. Do not publish package content.
