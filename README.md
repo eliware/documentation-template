@@ -24,7 +24,7 @@ Eliware documentation-only repository template.
 
 ## Features
 
-This template starts documentation-only repositories. Each derived repository owns its documents and operating decisions.
+This template provides a private structure for documentation-only repositories.
 
 ## Requirements
 
@@ -32,7 +32,7 @@ Use Node.js 26 or later and npm 12 or later for repository validation.
 
 ## Setup
 
-Create a repository from this template. Replace the template name, description, URLs, keywords, and sample content.
+Create a repository from this template. Replace its template name, description, URLs, keywords, and sample content.
 Run `npm ci` from the repository root.
 
 ## Usage
@@ -42,7 +42,6 @@ Read the [template guide](docs/README.md) and [release notes](RELEASE_NOTES.md).
 ## Development
 
 Read [AGENTS.md](AGENTS.md) and [the specifications index](specs/README.md) before you change files.
-Keep documents and records in the repository that owns them.
 
 ## Testing
 
@@ -50,35 +49,30 @@ Run `npm test` before handoff. It runs the repository checks through `eliware-te
 
 ## Troubleshooting
 
-If `npm ci` fails, use Node.js 26 or later and npm 12 or later.
-Run `npm ci` after you install the required versions.
-If `npm test` fails, read the file and rule in the error output.
-Fix the reported issue.
-Run `npm test` again.
+If `npm test` fails, read the rule ID and file path in the error output.
 
 ## Security
 
 Keep credentials, secrets, private data, and runtime state out of Git.
-Use only approved secret stores for secret values.
+Share documents only with approved readers. Do not publish package content.
 
 ## Scope
 
 Use this template for private, documentation-only repositories.
-Keep owned documents, structured records, and indexes in the derived repository. Keep application code, runtime settings, and canonical procedures in their owning repositories.
+Keep documents, structured records, and indexes in the derived repository. Keep application code, runtime settings, and canonical procedures in their owning repositories.
 
 ## Navigation
 
-Use the root README as the entry point. Use `specs/README.md` to find structured records.
-Index each direct YAML file in its specifications README. Keep links local or use full HTTPS links to other repositories.
+Use `specs/README.md` to find structured records.
+Index each direct YAML file in its specifications README.
 
 ## Contribution
 
 Set the repository purpose, owner, and boundaries before adding documents.
-Write with ASD-STE100 rules. Keep each procedure in one authoritative location. Link to it from other documents.
+Keep each procedure in one authoritative location. Link to it from other documents.
 
 ## Documentation validation
 
-Run `npm test` to check the repository.
 Run `npm run format:check` to check formatting. Run `npm run format` to format files.
 
 ## Support
