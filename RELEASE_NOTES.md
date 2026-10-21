@@ -2,10 +2,17 @@
 
 ## 14.0.0 — 2026-10-20
 
+### Added
+
+- Expand `docs/README.md` with template setup, repository layout, document indexing, writing guidance, validation, CI, and troubleshooting.
+- Document private repository limits and tell users to replace the guide with documentation for their derived repository.
+
 ### Changed
 
-- Align package metadata and repository specifications with v14 conventions.
-- Complete the required AGENTS.md guidance and link the release notes from README Usage.
+- Set package metadata and repository specifications to v14 conventions.
+- Update `@eliware/test` to version 14 and refresh the dependency lockfile.
+- Remove content from `AGENTS.md` and `README.md` that repository conventions do not require.
+- Link `RELEASE_NOTES.md` from the README Usage section.
 
 ## 13.0.0 — 2026-10-19
 
