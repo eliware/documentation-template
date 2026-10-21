@@ -4,7 +4,7 @@
 
 ### Changed
 
-- Align package metadata and repository directives with Eliware Test v15.
+- Set the package version to 15.0.0 and the repository directive version to 15.0.
 - Upgrade `@eliware/test` to v15 and refresh transitive dependency versions.
 
 ## 14.0.0 — 2026-10-20
