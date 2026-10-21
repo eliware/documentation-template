@@ -1,4 +1,4 @@
-version: "14.0"
+version: "15.0"
 description: Baseline documentation guidance for repositories created from this template.
 directives:
   - id: E-10.0
