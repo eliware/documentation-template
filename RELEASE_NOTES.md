@@ -5,6 +5,7 @@
 ### Added
 
 - Expand `docs/README.md` with template setup, repository layout, document indexing, writing guidance, validation, CI, and troubleshooting.
+- Document the Knit deployment trigger, target, commands, expected result, and derived-repository setup.
 - Document private repository limits and tell users to replace the guide with documentation for their derived repository.
 
 ### Changed

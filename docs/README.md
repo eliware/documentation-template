@@ -51,6 +51,7 @@ Run `npm test` after you change files. Fix each reported issue. Run `npm test` a
 | --------------------------- | -------------------------------------------------------- |
 | `README.md`                 | Introduce the repository and link to maintained content. |
 | `docs/`                     | Store end-user documentation owned by this repository.   |
+| `.knit/deploy.yaml`         | Define the Knit deployment for the `dev` target.         |
 | `specs/`                    | Store structured requirements and repository directives. |
 | `specs/README.md`           | Index the structured records in `specs/`.                |
 | `AGENTS.md`                 | Give contributors repository-specific instructions.      |
@@ -89,6 +90,14 @@ Use an approved secret store for secret values. Share private documents only wit
 The GitHub Actions workflow runs for pushes and pull requests that target `main`. It checks out the full Git history, sets up Node.js 26, installs the latest npm, installs locked dependencies, and runs `npm test`.
 
 Resolve local validation failures before you open a pull request. Check the workflow result before you merge changes.
+
+## Knit deployment
+
+The Documentation index links to a guide that explains how to update or disable the push entry in `.knit/deploy.yaml`.
+
+## Documentation index
+
+- [Knit deployment guide](deployment.md)
 
 ## Troubleshoot validation
 
