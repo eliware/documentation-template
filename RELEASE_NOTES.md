@@ -4,8 +4,9 @@
 
 ### Changed
 
-- Set the package version to 15.0.1 and upgrade @eliware/test to v15.0.1.
-- Refresh the dependency lockfile.
+- Set package.json and package-lock.json to version 15.0.1.
+- Upgrade @eliware/test to 15.0.1 and refresh its transitive dependencies.
+- Update the README License badge to the canonical private badge.
 
 ## 15.0.0 — 2026-10-21
 
