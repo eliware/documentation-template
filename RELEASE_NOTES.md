@@ -1,5 +1,12 @@
 # Release Notes
 
+## 15.0.1 — 2026-10-26
+
+### Changed
+
+- Set the package version to 15.0.1 and upgrade @eliware/test to v15.0.1.
+- Refresh the dependency lockfile.
+
 ## 15.0.0 — 2026-10-21
 
 ### Changed
